@@ -1,0 +1,59 @@
+body{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyusjj9zsKQmhJsS4RUVdK4EKglR0gtlPtXw&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a:hover{
+    color: black;
+    background-color: blue;
+    text-decoration: underline;
+    
+}
+
+.ep{
+border: 5px solid red;
+background-color:grey;
+}
+@keyframes f{
+    from{background-color: black;}
+    to{background-color: aqua;}
+}
+
+.re{
+    background-color: black;
+    color: white;
+    border: 5px ;
+    bottom: 1000;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    margin-left:0%;
+    animation: f 5s linear 0s infinite reverse none;
+}
+.navbar{
+    background-color:none;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    ul,li,h4{
+        display: inline-block;
+        margin: 30px;
+        font-size: x-large;
+        padding:0px;
+    }
+    ul{
+        margin-left: 60%;
+    }
+    li:hover{
+        cursor: pointer;
+    }
+    li:hover{
+        color:blue;
+    }
+    h,p{
+        display: inline-block;
+    }
+}
